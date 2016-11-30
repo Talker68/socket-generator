@@ -1,0 +1,24 @@
+.data-container {
+    margin: 4em auto;
+    width: 90%;
+}
+
+.data-element {
+    width: 5em;
+    text-align: right;
+    height: 3em;
+    line-height: 3em;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 0 .5em;
+    letter-spacing: .4px;
+    color: #333333;
+    transition: all .3s;
+}
+.data-element._less {
+    background: rgba(217, 83, 79, .4);
+}
+.data-element._more {
+    background: rgba(76, 174, 76, .4);
+}
